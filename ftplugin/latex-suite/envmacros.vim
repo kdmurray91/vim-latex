@@ -162,9 +162,9 @@ call s:Tex_SpecialMacros('', '', 'renewenvironment*',  '\renewenvironment*{<++>}
 call s:Tex_SpecialMacros('', '', '-sepenv0-', ' :', 0)
 " }}}
 " Environments specific commands {{{
-call s:Tex_SpecialMacros('', 'Env&Commands.&Lists.', '&item',     '\item', 0)
-call s:Tex_SpecialMacros('', 'Env&Commands.&Lists.', 'i&tem[]',    '\item[<++>]<++>', 0)
-call s:Tex_SpecialMacros('', 'Env&Commands.&Lists.', '&bibitem{}', '\bibitem{<++>}<++>', 0)
+call s:Tex_SpecialMacros('II', 'Env&Commands.&Lists.', '&item',     '\item', 0)
+call s:Tex_SpecialMacros('III', 'Env&Commands.&Lists.', 'i&tem[]',    '\item[<++>]<++>', 0)
+call s:Tex_SpecialMacros('IIB', 'Env&Commands.&Lists.', '&bibitem{}', '\bibitem{<++>}<++>', 0)
 call s:Tex_SpecialMacros('', 'Env&Commands.&Tabbing.', '\\&=', '\=', 0)
 call s:Tex_SpecialMacros('', 'Env&Commands.&Tabbing.', '\\&>', '\>', 0)
 call s:Tex_SpecialMacros('', 'Env&Commands.&Tabbing.', '&\\\\', '\\', 0)
